@@ -1,3 +1,8 @@
-const x = Number(process.argv[2]);
+const args = process.argv.slice(2);
+const x = parseInt(args[0]);
 
-console.log(Number.isNaN(x) ? "Missing number of occurrences" : "C is fun\n".repeat(x).trim());
+if (isNaN(x)) {
+  console.log("Missing number of occurrences");
+} else {
+  console.log("C is fun\n".repeat(x).trim());
+}
