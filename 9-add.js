@@ -7,7 +7,7 @@ function add(a, b) {
 }
 
 if (isNaN(a) || isNaN(b)) {
-  console.log("Missing integers");
+  console.log("NaN");
 } else {
   console.log(add(a, b));
 }
