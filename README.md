@@ -1,0 +1,1 @@
+Show how to create a varible in JavaScript and print it
